@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "portalmod",
+  "version": "1.0.0",
+  "name": "Portal Mod",
+  "description": "A portal that creates a dimension made of the block used in the frame.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.portalmod.PortalMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.1",
+    "fabric": "*"
+  }
+}
